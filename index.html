@@ -1,207 +1,250 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Mosquitoの世界 - 风檐展书读</title><meta name="author" content="Mosquito,404670393@qq.com"><meta name="copyright" content="Mosquito"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="よろしくお願い">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mosquitoの世界">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="og:site_name" content="Mosquitoの世界">
+<meta property="og:description" content="よろしくお願い">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="Mosquito">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Mosquitoの世界',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-06-30 11:31:41'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
-
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-<meta name="generator" content="Hexo 6.2.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/06/30/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2022-06-30T02:11:10.516Z" itemprop="datePublished">2022-06-30</time>
-</a>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/06/30/hello-world/">Hello World</a>
-    </h1>
-  
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-bookmark"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-address-book"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user-circle"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://imgs.aixifan.com/lvqcSb3gdv9td9cSda-qrjF0ZxWD')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Mosquitoの世界</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-bookmark"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-address-book"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user-circle"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Mosquitoの世界</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/Fontzs" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:2simple233@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://www.instagram.com/wenzhi233/" target="_blank" title=""><i class="fa-brands fa-instagram-square"></i></a><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=xexHm1-jGvQbOfd_5AbxfHJnb1EpIfKU&amp;noverify=0" target="_blank" title=""><i class="fa-brands fa-qq"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2022/06/06/Git%20&amp;%20Github/" title="Git &amp; Github"><img class="post_bg" src="https://tarunbatra.com/data/images/git-before-github/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git &amp; Github"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/06/06/Git%20&amp;%20Github/" title="Git &amp; Github">Git &amp; Github</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-06-06T06:18:22.000Z" title="发表于 2022-06-06 14:18:22">2022-06-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/">奇技淫巧</a></span></div><div class="content">命令行cd 打印当前的路径
+dir 打印当前路径下的文件
+cls 清楚命令
+cd .. 返回上级目录
+echo &lt;content&gt; &gt; &lt;fileName&gt;.&lt;fileType&gt; 创建文件
+mkdir &lt;fileName&gt; 创建文件夹
+rm &lt;file&gt; 删除文件
+rmdir &lt;dir&gt; 删除文件夹
+cd D: 切换到D磁盘
+dir 现实当前目录所有文件夹
+cd 相对路径/绝对路径
+cd / 回到根目录
+copy &lt;file&gt; &lt;path&gt; 将文件拷贝到path路径
+move &lt;file&gt; &lt;path&gt; 将文件移动到path路径
+git原理Working Directory
+.git(hidden): Staging Area (Index File), Commits (Objects Folder)
+git init 创建git repository
+git add &lt;file&gt; 添加文件 
+git rm &lt;file&gt; 删除文件
+gi ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/06/04/Go%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" title="Go并发编程"><img class="post_bg" src="http://p8.itc.cn/q_70/images03/20201122/0f1c87fae22f4c1486f6ef7323320668.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Go并发编程"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/06/04/Go%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" title="Go并发编程">Go并发编程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-06-04T14:37:53.000Z" title="发表于 2022-06-04 22:37:53">2022-06-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Go/">Go</a></span></div><div class="content">绪论主要困难：
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+不知道如何选择并发原语
+在多个并发源于中选择最优解，比如mutex or chan？
+不知如何编排并发任务
+排查panic或者死锁困难
+已知的并发原语不能解决并发问题
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+核心内容基本并发原语：主要有Mutex RWMutex Waitgroup Cond Pool Context等标准库中的并发原语，这些都是传统的并发原语
+原子操作：原子操作时其他并发原语的基础，可以以此创造新的并发原语
+channel：chan类型时golang独有的，很好用
+拓展并发原语：信号量、SingleFlight、循环栅栏、ErrGroup等
+分布式并发原语: 是应对大规模的应用程序中并发问题的并发类型，主要有etcd实现的分布式并发原语，比如Leader选举、分布式互斥锁、分布式读写锁、分布式队列等
+学习方向基础用法、实现原理、易错场景、知名项目bug
+初始：任务编排用chan，共享资源保护用传统并发原语，进阶后不能局限于此
+有野心地创造出自己需要地并发原语：
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+对既有并发原语进行组合，使用多个并发原语解决问题
+根据已掌握地并发原语地设计经验，创造出合适地新的并发原语
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+解决资源并发访问 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/04/25/Golang%E4%B8%AD%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" title="Golang中的奇技淫巧"><img class="post_bg" src="http://image.uc.cn/s/wemedia/s/upload/2022/5c255f853407dd3b96dc14f2beea78e0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Golang中的奇技淫巧"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/25/Golang%E4%B8%AD%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" title="Golang中的奇技淫巧">Golang中的奇技淫巧</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-25T07:22:54.000Z" title="发表于 2022-04-25 15:22:54">2022-04-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Go/">Go</a></span></div><div class="content">位运算123456&amp;	bitwise And|	bitwise OR^	bitwise XOR&amp;^	AND NOT&lt;&lt;	left shift&gt;&gt;	right shift
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+&amp; 运算在GO中， &amp; 运算符在两个整型操作数中执行按位 AND 操作，
+123Given operands a, bAND(a, b) = 1; only if a == b &amp;&amp; b == 1else AND(a, b) = 0
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/06/30/hello-world/" data-id="cl50e5p2u0000pks4hy2w0pzf" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
+AND运算符具有选择性地把整形数据地位清除为0地好的效果。例如，我们可以使用&amp;运算符去清除（设置）最后4个最低有效位（LSB)全部为0
+123456789func main()&#123;    var x uint8 = 0xAA // x = 10101010    var y uint8 = 0xA3 // y = 10100011    var z uint8 = x &amp; y // z = 10100010    /*    x &amp;= y 可代替z        */&#125;
 
+ ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/04/14/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/" title="背包问题"><img class="post_bg" src="http://image.uc.cn/s/wemedia/s/upload/2022/3c64badb0484c2f21006a78cfd3e2c73.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="背包问题"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/14/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/" title="背包问题">背包问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-14T11:43:03.000Z" title="发表于 2022-04-14 19:43:03">2022-04-14</time></span></div><div class="content">01背包有n件物品和一个最多能背重量为w 的背包。第i件物品的重量是weight[i]，得到的价值是value[i] 。每件物品只能用一次，求解将哪些物品装入背包里物品价值总和最大。
+二维数组动规五部曲:
 
+确定dp数组以及下标的含义
 
-  
+对于背包问题，有一种写法， 是使用二维数组，即dp[i] [j]表示从下标为[0-i]的物品里任意取，放进容量为j的背包，价值总和最大是多少。
 
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2022/06/30/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2022 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.4.1.min.js"></script>
+确定递推公式
+有两个方向推出来dp[i] [j]，
 
 
 
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+不放物品i：由dp[i - 1] [j]推出，即背包容量为j，里面不放物品i的最大价值，此时dp[i] [j]就是dp[i - 1] [j]。(其实就是当物品i的重量大于背包j的重量时，物品i无法放进背包中，所以被背包内的价值依然和前面相同。)
+放物品i：由dp[i - 1] [j - weight[i]]推出，dp[i - 1] [j - weight[i]] 为背包容量为j - weight[i]的时候不放物品i的最大价值，那么dp[i - 1] [j - weight[i]] + value[i] （物品i的价值），就是背包放物品i得到的最大价值 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/04/10/%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81/" title="两种古典密码：Hill和Affine密码 —— 基于Java实现"><img class="post_bg" src="http://image.uc.cn/s/wemedia/s/upload/2022/87f7500defc7453225024a64a84483d7.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="两种古典密码：Hill和Affine密码 —— 基于Java实现"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/10/%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81/" title="两种古典密码：Hill和Affine密码 —— 基于Java实现">两种古典密码：Hill和Affine密码 —— 基于Java实现</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-10T08:00:26.000Z" title="发表于 2022-04-10 16:00:26">2022-04-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/">密码学</a></span></div><div class="content">Hill密码阶数增加到5会导致逆矩阵难以用整数精确表示，故姑且暂用3阶矩阵 
+若有原矩阵与逆矩阵皆为整数的矩阵对，亦可行
+1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798991001011021031041051061071081091101111121131141151161171181191201211221231241251261271281291301311321331341351361371381391401411421431441451461471481491501511521531541551561571581591601611621631641651661671681691701711721731741751761771781791801811821 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/03/07/Java-%E5%85%AB%E8%82%A1%E6%96%87/" title="Java 八股文"><img class="post_bg" src="https://wx2.sinaimg.cn/large/005GIVK4ly1gn62afcoizj31o01o0b0c.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java 八股文"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/03/07/Java-%E5%85%AB%E8%82%A1%E6%96%87/" title="Java 八股文">Java 八股文</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-07T15:00:12.000Z" title="发表于 2022-03-07 23:00:12">2022-03-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">基础知识</a></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/03/05/SQL%E8%AF%AD%E8%A8%80%E7%AC%94%E8%AE%B0/" title="SQL语言笔记"><img class="post_bg" src="https://data.ygosu.com/editor/attach/20220517/20220517081322_lswlrlel.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SQL语言笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/03/05/SQL%E8%AF%AD%E8%A8%80%E7%AC%94%E8%AE%B0/" title="SQL语言笔记">SQL语言笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-05T07:22:54.000Z" title="发表于 2022-03-05 15:22:54">2022-03-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></span></div><div class="content">根据《SQL必知必会（第5版）》整理 ,由于不同的数据库管理系统对SQL标准略有不同，故撰文以汇之，此文以MySQL为标准，少量补充SQL Server（别问为什么，问就是因为考试考SQL Sever）。
+数据库基础数据库（datebase）：保存有组织的数据的容器
+数据库软件称为数据库管理系统（DBMS）
+个人认为，数据库的结构可以这样认为：库 -&gt; 表 -&gt; 列（column）&#x2F; 行（row） -&gt; 项 
+通表同类型，同一数据库中表名是唯一的
+行又称记录
+主键为一张表的标识，由一列或者几列组成，每行都必须有一个主键值，每行的主键值都是唯一的
+虽然SQL语言不区分大小写，但一般关键字都大写
+检索数据多条SQL语句必须以“；”分隔，USE MySQL 语句中的USE表示使用某个库
+SELECT语句SELECT选择列，例如
+12SELECT prod_nameFROM Products;
+
+SELECT 可以选择多个列，各列之间用‘’，’‘分隔
+12SELECT prod_name，prod_id, pord_priceFROM Products;
+
+检索所有 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/02/25/%E5%86%B2%E5%A1%94KMP%E7%AE%97%E6%B3%95/" title="冲塔KMP算法"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Fontzs/PicGo/images/242267723_561295848537503_3713073897893110925_n.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="冲塔KMP算法"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/02/25/%E5%86%B2%E5%A1%94KMP%E7%AE%97%E6%B3%95/" title="冲塔KMP算法">冲塔KMP算法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-02-25T08:13:26.000Z" title="发表于 2022-02-25 16:13:26">2022-02-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95/">算法</a></span></div><div class="content">不才，学完数据结构快一年了，但这一年里我一直被KMP算法困扰着。去年在课堂上时，关于这个算法我就听的云里雾里，在课后紧张的几分钟里，赶忙抓起教材,希望能够理解这一算法，匆忙翻阅几页，有种想撕书的冲动，暗暗克制住怒火。之后在网上，搜寻了许多资料，但一一读过后总有一种“词不达意”的感觉，遗憾没能深入理解这一算法。
+最近在 LeetCode 上碰到了关于字符串的题目，恰巧需要用到KMP算法，于是借此机会重新梳理一下，同时相较于去年，我对这一算法的理解程度也加深了，希望以文章的形式促成我之思想与KMP 算法的完全融合吧。
+KMP算法用武之地KMP算法主要是用于解决字符串匹配问题，若给出两个字符串m和n，需验证n是否是m的子字符串，此时KMP算法就派上用场了。
+按照暴力解法，两个字符串分别有指针从头指到尾，一次进行比较，那么时间复杂度为O（m*n）,但使用KMP算法就不必从头指到尾进行比较了。
+
+如上图的两串字符串，当上下指针到当前位置时，发生了不匹配的情况，按照暴力解法，上指针会移动到第二个字符，下指针会移动到首字符。而KMP算法的上指针不变，下指针会移动到b处。
+
+前缀与前缀表前缀是指包含首 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/02/10/Java%20SE%20%E9%99%B7%E9%98%B1/" title="Java SE 笔记"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Fontzs/PicGo/images/278789146_321426830059055_3843537505813571320_n.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java SE 笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/02/10/Java%20SE%20%E9%99%B7%E9%98%B1/" title="Java SE 笔记">Java SE 笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-02-09T20:07:53.000Z" title="发表于 2022-02-10 04:07:53">2022-02-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></span></div><div class="content">
+String 类型重新赋值会重新开辟空间创造新的应用，所以在参数绑定中无效
+
+构造方法中可以调用其他构造方法，语法是 this(…)
+1234567891011121314151617class Person &#123;    private String name;    private int age;    public Person(String name, int age) &#123;        this.name = name;        this.age = age;    &#125;    public Person(String name) &#123;        this(name, 18); // 调用另一个构造方法Person(String, int)    &#125;    public Person() &#123;        this(&quot;Unnamed&quot;); // 调用另一个构造方法Person(String)    &#125;&#125;
 
 
 
+org.junit.Assert.assertArrayEqu ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/02/10/%E5%9B%BE%E8%A7%A3%E7%B3%BB%E7%BB%9F%E7%AC%94%E8%AE%B0/" title="图解系统笔记"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Fontzs/PicGo/images/241217982_390078079389261_6863334998717005568_n.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="图解系统笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/02/10/%E5%9B%BE%E8%A7%A3%E7%B3%BB%E7%BB%9F%E7%AC%94%E8%AE%B0/" title="图解系统笔记">图解系统笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-02-09T20:07:53.000Z" title="发表于 2022-02-10 04:07:53">2022-02-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></span></div><div class="content">硬件结构图灵机的工作方式图灵机由纸带和读写头组成，纸带由一个个连续格子组成，每个格子可以写入字符，好比内存；读写头可以读取或者写入字符。
 
-<script src="/js/script.js"></script>
+读写头部件：存储单元、控制单元、运算单元
+存储单元存放数据
+控制单元识别字符是数据还是指令，以及控制程序的流程
+运算单元用于执行运算指令
 
 
 
-
-
-  </div>
-</body>
-</html>
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Mosquito</div><div class="author-info__description">よろしくお願い</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Fontzs" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:2simple233@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://www.instagram.com/wenzhi233/" target="_blank" title=""><i class="fa-brands fa-instagram-square"></i></a><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=xexHm1-jGvQbOfd_5AbxfHJnb1EpIfKU&amp;noverify=0" target="_blank" title=""><i class="fa-brands fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/06/06/Git%20&amp;%20Github/" title="Git &amp; Github"><img src="https://tarunbatra.com/data/images/git-before-github/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git &amp; Github"/></a><div class="content"><a class="title" href="/2022/06/06/Git%20&amp;%20Github/" title="Git &amp; Github">Git &amp; Github</a><time datetime="2022-06-06T06:18:22.000Z" title="发表于 2022-06-06 14:18:22">2022-06-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/06/04/Go%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" title="Go并发编程"><img src="http://p8.itc.cn/q_70/images03/20201122/0f1c87fae22f4c1486f6ef7323320668.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Go并发编程"/></a><div class="content"><a class="title" href="/2022/06/04/Go%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" title="Go并发编程">Go并发编程</a><time datetime="2022-06-04T14:37:53.000Z" title="发表于 2022-06-04 22:37:53">2022-06-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/25/Golang%E4%B8%AD%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" title="Golang中的奇技淫巧"><img src="http://image.uc.cn/s/wemedia/s/upload/2022/5c255f853407dd3b96dc14f2beea78e0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Golang中的奇技淫巧"/></a><div class="content"><a class="title" href="/2022/04/25/Golang%E4%B8%AD%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" title="Golang中的奇技淫巧">Golang中的奇技淫巧</a><time datetime="2022-04-25T07:22:54.000Z" title="发表于 2022-04-25 15:22:54">2022-04-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/14/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/" title="背包问题"><img src="http://image.uc.cn/s/wemedia/s/upload/2022/3c64badb0484c2f21006a78cfd3e2c73.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="背包问题"/></a><div class="content"><a class="title" href="/2022/04/14/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/" title="背包问题">背包问题</a><time datetime="2022-04-14T11:43:03.000Z" title="发表于 2022-04-14 19:43:03">2022-04-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/10/%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81/" title="两种古典密码：Hill和Affine密码 —— 基于Java实现"><img src="http://image.uc.cn/s/wemedia/s/upload/2022/87f7500defc7453225024a64a84483d7.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="两种古典密码：Hill和Affine密码 —— 基于Java实现"/></a><div class="content"><a class="title" href="/2022/04/10/%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81/" title="两种古典密码：Hill和Affine密码 —— 基于Java实现">两种古典密码：Hill和Affine密码 —— 基于Java实现</a><time datetime="2022-04-10T08:00:26.000Z" title="发表于 2022-04-10 16:00:26">2022-04-10</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Go/"><span class="card-category-list-name">Go</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%8F%A4%E6%96%87/"><span class="card-category-list-name">古文</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"><span class="card-category-list-name">基础知识</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"><span class="card-category-list-name">奇技淫巧</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/"><span class="card-category-list-name">密码学</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"><span class="card-category-list-name">数据库</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/"><span class="card-category-list-name">笔记</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%AE%97%E6%B3%95/"><span class="card-category-list-name">算法</span><span class="card-category-list-count">3</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Git/" style="font-size: 1.1em; color: #999">Git</a> <a href="/tags/Go/" style="font-size: 1.1em; color: #999">Go</a> <a href="/tags/Golang/" style="font-size: 1.1em; color: #999">Golang</a> <a href="/tags/Java/" style="font-size: 1.23em; color: #999ea6">Java</a> <a href="/tags/Java%E8%AF%AD%E6%B3%95/" style="font-size: 1.1em; color: #999">Java语法</a> <a href="/tags/LeetCode/" style="font-size: 1.23em; color: #999ea6">LeetCode</a> <a href="/tags/Markdown/" style="font-size: 1.1em; color: #999">Markdown</a> <a href="/tags/OS/" style="font-size: 1.1em; color: #999">OS</a> <a href="/tags/SQL/" style="font-size: 1.1em; color: #999">SQL</a> <a href="/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/" style="font-size: 1.37em; color: #99a4b2">初等数论</a> <a href="/tags/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" style="font-size: 1.1em; color: #999">奇技淫巧</a> <a href="/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" style="font-size: 1.5em; color: #99a9bf">密码学</a> <a href="/tags/%E5%B9%B6%E5%8F%91/" style="font-size: 1.1em; color: #999">并发</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 1.1em; color: #999">操作系统</a> <a href="/tags/%E6%95%A3%E6%96%87/" style="font-size: 1.1em; color: #999">散文</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.23em; color: #999ea6">算法</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/04/"><span class="card-archive-list-date">四月 2022</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">二月 2022</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/01/"><span class="card-archive-list-date">一月 2022</span><span class="card-archive-list-count">7</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">17</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-06-30T03:31:41.029Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Mosquito</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
